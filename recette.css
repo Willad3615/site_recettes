@@ -1,0 +1,149 @@
+
+       *{
+             overflow: auto; /*empecher tout débordement dans tous les contenus*/
+        }
+        
+        
+        body{
+            background-color: #8BA1BB;
+            font-family:Arial, Helvetica, sans-serif;
+            margin:0;
+            min-width: 500px;
+            }
+
+        p.categorie{
+            background-color: #000;
+            color: white;
+            display: inline-block;
+            padding: 8px 18px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        div.contenu{
+            background-color: white;
+            margin: 0px 10% 80px 10%;
+            padding: 30px;
+            box-shadow: 0px 0px 10px 10px #6C829D;
+        }
+
+        h1{
+            text-align: center;
+
+        }
+
+        p.description{
+            text-align: center;
+            max-width: 400px;
+            display: inline-block;
+        }
+
+        .centre{
+            text-align: center;
+        }
+
+        div.categorie{
+            margin-top: 60px;
+            margin-bottom: -35px;
+        }
+
+        div.separateur{
+            max-width: 200px;
+            height: 1px;
+            margin: auto;
+        }
+
+ 
+        div.infos{
+            position: relative;
+            background-color: gray;
+        }
+
+
+        table.infos{
+            position:absolute; 
+            width: 100%;
+            bottom: 0px;
+            color:white;
+            background-color: #6C829DC0;
+            height: 10%;
+        }
+
+        table.infos td{
+            text-align: center;
+            font-size: 14px;
+            vertical-align: top;
+        }
+
+        table.infos th{
+            font-size: 16px;
+            vertical-align: bottom;
+            padding-bottom: 8px;
+        }
+
+        img.infos{    
+            width: 100%;
+            max-height: 600px;   
+            object-fit: cover; 
+            min-height: 200px;       
+        }
+
+        div.colonne {
+            width: 45%;
+            margin-top: 20px;
+        }
+
+        div.colonne h2 {
+            text-align: center;
+            border-bottom: 5px solid #6C829D;
+            text-transform: uppercase;
+            font-size: 15px;
+            padding-bottom: 5px;
+        }
+
+        div.colonne1{
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        div.colonne2{
+            float: right;
+            margin-left: 5px;
+        }
+
+        div.ingredients{
+            margin-top: 30px;
+          
+        }
+
+        div.ingredients p{
+            text-align: center;
+            padding: 10px 0px;
+            border: 1px solid#6C829D;
+            margin: 5px;
+            font-size: 14px;
+        }
+
+       p.numero{
+           padding-left: 15px;
+           padding-top: 10px;
+           height:40px;
+           width: 40px;
+           box-sizing: border-box;
+           border-radius: 50%;
+           background-color: #6C829D;
+           color: white;
+           margin-top: 15px;
+           font-size: 14px;
+           font-weight: bold;
+       }
+
+       td.etape{
+           padding-left: 10px;
+           font-size: 14px;
+       }
+
+       table.preparation tr{
+           height: 50px;
+       }
+
